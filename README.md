@@ -1,8 +1,11 @@
 # Polling Pilkada 2017 Sederhana
 
 Setelah berkutat cukup lama, tugas untuk minggu kedua yang telah saya buat ini adalah website polling sederhana yang digunakan untuk memilih calon kepala daerah. Dibentuk dari HTML + CSS + JS sederhana.  
+Untuk tampilan yang lebih baik harap akses melalui Desktop.  
   
- Untuk tampilan yang lebih baik harap akses melalui Desktop.
+
+PS : data akan ter-reset apabila dilakukan reload
+
 
 # Pseudo Code
 ```
@@ -13,7 +16,7 @@ TAMPILKAN Daftar calon beserta jumlah suara
 
 
 //pseudocode untuk memilih calon (pilih())
-DEKLARASI variabel Terimakasih dan isikan Constructor Function yang akan menampilkan keterangan
+DEKLARASI variabel Terimakasih dan isikan Constructor Function yang akan menampilkan keterangan  
 DEKLARASI variabel namapeserta, pilihan  
 PANGGIL FUNGSI Pilih   
 INPUT nama ke variabel namapeserta  
@@ -38,7 +41,7 @@ INPUT pilihan ke variabel
 PANGGIL FUNGSI tampilCalon dengan parameter calon  
 DEKLARASI OBJEK thanks dari constructor function  
 PANGGIL OBJEK thanks  
-TAMPILKAN Keterangan
+TAMPILKAN Keterangan  
 
 
 //pseudocode untuk menampilkan calon (tampilCalon())  
