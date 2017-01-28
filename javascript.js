@@ -1,15 +1,11 @@
-
 var namapeserta ;
 var pilihan ;
-
 var calon = [
-				['1','Agus - Sylvi', 0],
-				['2','Ahok - Djarot', 0],
-				['3','Anies - Sandiaga', 0],
-				['4','Anthony', 0]
-			]
-
-
+	['1','Agus - Sylvi', 0],
+	['2','Ahok - Djarot', 0],
+	['3','Anies - Sandiaga', 0],
+	['4','Anthony', 0]
+]
 var Terimakasih = function(no, nama) {
 	this.nama = nama;
 	this.no = no;
@@ -20,8 +16,8 @@ var Terimakasih = function(no, nama) {
 
 
 function pilih () {
-	namapeserta = prompt("Please enter your name", "Anthony Junet");
-	pilihan = prompt("Memilih nomor ? (masukkan salah satu no urut 1-4)", "4");
+	namapeserta = prompt("Please enter your name", "");
+	pilihan = prompt("Memilih nomor ? (masukkan salah satu no urut 1-4)", "1");
 
 	if (pilihan == '1') {
 		calon[0][2]++;
