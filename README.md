@@ -13,7 +13,7 @@ TAMPILKAN Daftar calon beserta jumlah suara
 
 
 //pseudocode untuk memilih calon (pilih())
-DEKLARASI variabel Terimakasih dan isikan Constructor Function
+DEKLARASI variabel Terimakasih dan isikan Constructor Function yang akan menampilkan keterangan
 DEKLARASI variabel namapeserta, pilihan  
 PANGGIL FUNGSI Pilih   
 INPUT nama ke variabel namapeserta  
@@ -38,6 +38,7 @@ INPUT pilihan ke variabel
 PANGGIL FUNGSI tampilCalon dengan parameter calon  
 DEKLARASI OBJEK thanks dari constructor function  
 PANGGIL OBJEK thanks  
+TAMPILKAN Keterangan
 
 
 //pseudocode untuk menampilkan calon (tampilCalon())  
