@@ -30,6 +30,7 @@ function pilih () {
 	}else {
 		alert("nomor yang anda masukkan tidak sesuai");
 	}
+	alert("Terimakasih Telah memilih !");
 
 	tampilCalon(calon);
 	var thanks = new Terimakasih(pilihan , namapeserta);
