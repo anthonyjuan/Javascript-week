@@ -18,23 +18,33 @@ var Terimakasih = function(no, nama) {
 function pilih () {
 	namapeserta = prompt("Please enter your name", "");
 	pilihan = prompt("Memilih nomor ? (masukkan salah satu no urut 1-4)", "1");
-
+	var thanks = new Terimakasih(pilihan , namapeserta);
+	
 	if (pilihan == '1') {
 		calon[0][2]++;
+		alert("Terimakasih Telah memilih !");
+		document.getElementById('keterangan').innerHTML = thanks.tampil();
 	}else if (pilihan == '2') {
 		calon[1][2]++;
+		alert("Terimakasih Telah memilih !");
+		document.getElementById('keterangan').innerHTML = thanks.tampil();
 	}else if (pilihan == '3') {
 		calon[2][2]++;
+		alert("Terimakasih Telah memilih !");
+		document.getElementById('keterangan').innerHTML = thanks.tampil();
 	}else if (pilihan == '4') {
 		calon[3][2]++;
+		alert("Terimakasih Telah memilih !");
+		document.getElementById('keterangan').innerHTML = thanks.tampil();
 	}else {
 		alert("nomor yang anda masukkan tidak sesuai");
+		document.getElementById('keterangan').innerHTML = 'Maaf '+namapeserta+' Nomor yang anda masukkan tidak terdaftar';
+
 	}
-	alert("Terimakasih Telah memilih !");
+	
 
 	tampilCalon(calon);
-	var thanks = new Terimakasih(pilihan , namapeserta);
-	document.getElementById('keterangan').innerHTML = thanks.tampil();
+	
 
 }
 
