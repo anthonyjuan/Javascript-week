@@ -2,6 +2,8 @@
 
 Setelah berkutat cukup lama, tugas untuk minggu kedua yang telah saya buat ini adalah website polling sederhana yang digunakan untuk memilih calon kepala daerah. Dibentuk dari HTML + CSS + JS sederhana.  
 Untuk tampilan yang lebih baik harap akses melalui Desktop.  
+
+Demo dapat di buka [di sini](https://rawgit.com/anthonyjuan/javascript-week/master/index.html)
   
 
 PS : data akan ter-reset apabila dilakukan reload

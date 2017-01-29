@@ -16,8 +16,8 @@ var Terimakasih = function(no, nama) {
 
 
 function pilih () {
-	namapeserta = prompt("Please enter your name", "");
-	pilihan = prompt("Memilih nomor ? (masukkan salah satu no urut 1-4)", "1");
+	namapeserta = prompt("Masukkan Nama anda", "");
+	pilihan = prompt("Memilih nomor ? (masukkan salah satu no urut 1-4)", "");
 	var thanks = new Terimakasih(pilihan , namapeserta);
 	
 	if (pilihan == '1') {
